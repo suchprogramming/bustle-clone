@@ -1,3 +1,3 @@
-Bustle = Ember.Application.create(
-  LOG_TRANSITIONS: true;
-);
+Bustle = Ember.Application.create({
+  LOG_TRANSITIONS: true
+});
