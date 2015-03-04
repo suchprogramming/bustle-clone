@@ -8,13 +8,13 @@
     </ul>
     <div class="nav navbar-nav social-links">
       {{#if isExpanded}}
-        <li {{action 'toggleSocialMenu' on="mouseLeave"}}>
-          <ul id="social">
-            {{#link-to ''}}<img src="imgs/facebook.png" />{{/link-to}}
-            {{#link-to ''}}<img src="imgs/twitter.png" />{{/link-to}}
-            {{#link-to ''}}<img src="imgs/pinterest.png" />{{/link-to}}
-          </ul>
-        </li>
+      <li {{action 'toggleSocialMenu' on="mouseLeave"}}>
+        <ul id="social">
+          {{#link-to ''}}<img src="imgs/facebook.png" />{{/link-to}}
+          {{#link-to ''}}<img src="imgs/twitter.png" />{{/link-to}}
+          {{#link-to ''}}<img src="imgs/pinterest.png" />{{/link-to}}
+        </ul>
+      </li>
       {{else}}
         <li {{action 'toggleSocialMenu' on="mouseEnter"}}>
           {{#link-to ''}}SOCIAL{{/link-to}}
